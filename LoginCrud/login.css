@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #553100;
+}
+
+#check {
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #171227;
+    margin-left: 38%;
+    margin-top: 6%;
+    justify-content: center;
+}
+
+input,
+select,
+textarea,
+button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    border-radius: 5px;
+}
+
+.teste:before,
+.teste:after {
+    display: table;
+}
+
+.teste:after {
+    clear: both;
+}
+
+.baralho {
+    margin-bottom: 1em;
+}
+
+.baralho label {
+    margin-bottom: 1.2em;
+    color: #553100;
+    display: block;
+}
+
+fieldset.teste .baralho {
+    float: left;
+    margin-right: 1em;
+}
+
+.baralho input[type="text"],
+.baralho input[type="Telefone"],
+.baralho select,
+.baralho textarea {
+    padding: 0.2em;
+    border: 1px solid #553100;
+    display: block;
+}
+
+.baralho select option {
+    padding-right: 1em;
+}
+
+.baralho input:focus,
+.baralho select:focus,
+.baralho textarea:focus {
+    background: #E0E0F8;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #553100;
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    position: relative;
+    left: 20%;
+    transform: translate(-50%, -50%)
+}
+
+.botao:hover {
+    background:darkgreen;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.botao,
+select {
+    cursor: pointer;
+}
+
+#customers {
+    border-collapse: collapse;
+    width:35%;
+}
+
+#customers td,
+#customers th {
+    padding: 8px;
+}
+
+#customers tr:hover {
+    background-color: yellow;
+}
+
+#customers th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+    color: black;
+}
